@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let name of names">
+        <!--importing the child component into user-list, and using[] to accept data from the parent class in the child class.-->
+        <app-user-item [name]="name"></app-user-item>
+
+    </li>
+</ul>
